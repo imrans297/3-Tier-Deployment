@@ -52,3 +52,7 @@ variable "max_capacity_on_demand" {}
 variable "desired_capacity_spot" {}
 variable "min_capacity_spot" {}
 variable "max_capacity_spot" {}
+variable "owner" {}
+variable "project-name" {}
+variable "DM" {}
+variable "End-Date" {}

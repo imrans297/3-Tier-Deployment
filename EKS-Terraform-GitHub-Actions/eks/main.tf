@@ -41,4 +41,8 @@ module "eks" {
   endpoint-public-access        = var.endpoint-public-access
 
   addons = var.addons
+  owner = var.owner
+  DM = var.DM
+  project-name = var.project-name
+  End-Date = var.End-Date
 }

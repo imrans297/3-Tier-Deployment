@@ -11,7 +11,10 @@ resource "aws_vpc" "vpc" {
   tags = {
     Name = var.vpc-name
     Env  = var.env
-
+    project = var.project-name
+    owner = var.owner
+    DM = var.DM
+    End-Date = var.End-Date
   }
 }
 
@@ -165,5 +168,9 @@ resource "aws_security_group" "eks-cluster-sg" {
 
   tags = {
     Name = var.eks-sg
+    project = var.project-name
+    owner = var.owner
+    DM = var.DM
+    End-Date = var.End-Date
   }
 }

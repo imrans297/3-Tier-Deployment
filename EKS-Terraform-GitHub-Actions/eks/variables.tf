@@ -48,4 +48,8 @@ variable "addons" {
     name    = string
     version = string
   }))
-}
+}  
+variable "owner" {}
+variable "project-name" {}
+variable "DM" {}
+variable "End-Date" {}

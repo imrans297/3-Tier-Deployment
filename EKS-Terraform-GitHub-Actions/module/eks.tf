@@ -21,6 +21,10 @@ resource "aws_eks_cluster" "eks" {
   tags = {
     Name = var.cluster-name
     Env  = var.env
+    project = var.project-name
+    owner = var.owner
+    DM = var.DM
+    End-Date = var.End-Date
   }
 }
 
